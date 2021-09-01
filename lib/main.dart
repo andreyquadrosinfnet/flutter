@@ -4,6 +4,7 @@ import 'package:flutter_app_aluguelbikes/screens/bikes_overview_screen.dart';
 void main(){
   runApp(
       MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: BikesOverviewScreen(),
   ));
 }

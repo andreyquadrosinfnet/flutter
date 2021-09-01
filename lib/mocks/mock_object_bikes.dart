@@ -7,7 +7,7 @@ final MOCK_BIKES = [
       modelo: 'nvx',
       jogo: 5,
       valor: 20.99,
-      imagem: 'https://images.pexels.com/photos/1007410/pexels-photo-1007410.jpeg'
+      imagem: 'https://pbs.twimg.com/media/EAEXLqEXkAIh9QV.jpg'
   ),
   Bike(
       id: 2,
