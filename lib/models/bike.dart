@@ -7,6 +7,7 @@ class Bike {
   final int jogo;
   final double valor;
   final String imagem;
+  final String descricao;
 
   Bike({
     @required this.id,
@@ -15,5 +16,6 @@ class Bike {
     @required this.jogo,
     @required this.valor,
     @required this.imagem,
+    @required this.descricao,
   });
 }
