@@ -46,6 +46,7 @@ class BikeGridItem extends StatelessWidget {
               }else{
                 ScaffoldMessenger.of(context).showSnackBar(snackBarS);
                 cartProvider.addBikes(bike);
+                cartProvider.sumPrice(bike);
                 print('${cartProvider.total}');
               }
 

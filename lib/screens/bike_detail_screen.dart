@@ -52,6 +52,7 @@ class BikeDetailScreen extends StatelessWidget {
                       }else{
                         ScaffoldMessenger.of(context).showSnackBar(snackBarS);
                         cartProvider.addBikes(bike);
+                        cartProvider.sumPrice(bike);
                         Navigator.of(context).pushNamed(AppRoutes.CART_DETAIL);
                         print('${cartProvider.total}');
                       }
